@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Manero</title>
+    <script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="~/js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.min.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- PRODUCT DETAILS PAGE  -->
+
+    <!-- insert top menu -->
+
+    <!-- product details SECTION-->
+    <section class="product-details-section">
+        <div class="product-images">
+            <!-- funktionalitet för att kunna bläddra mellan bilder -->
+            <img src="./Images/productImage.jpg"/>
+            <div class="image-pagination">
+                <i class="bar fa-solid fa-horizontal-rule"></i>
+                <i class="circle fa-solid fa-circle"></i>
+                <i class="circle fa-solid fa-circle"></i>
+            </div>
+        </div>
+
+        <div class="container-sm">
+            <div class="title-wishlist">
+                <!-- product title -->
+                <h2>Knitted summer top</h3>
+                <!-- add to wishlist  -->
+                <i class="fa-regular fa-heart"></i>
+            </div> 
+            <!-- product rating -->
+            <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <div class="total-reviews">(23)</div>
+            </div>
+            
+            <!-- product price and add to cart -->
+            <div class="price-cart">
+                <h3>$37.88</h3>
+                <div class="add-to-cart">
+                    <button>-</button>
+                    <div class="amount">1</div>
+                    <button>+</button>
+                </div>
+            </div>
+            
+            <!-- product sizes -->
+            <div class="product-size">
+                <div class="title">Size</div>
+                <div class="size-buttons">
+                    <button>XS</button>
+                    <button>S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                    <button>XXL</button>
+                </div>
+            </div>
+            <!-- product colors -->
+            <div class="product-colors">
+                <div class="title">Color</div>
+                <div class="color-buttons">
+                    <button class="red"></button>
+                    <button class="blue"></button>
+                    <button class="beige"></button>
+                    <button class="navy"></button>
+                    <button class="black"></button>
+                </div>
+            </div>
+            <!-- description -->
+            <div class="description">
+                <div class="title">Description</div>
+                <div class="text">Amet amet Lorem eu consectetur in deserunt nostrud dolor culpa ad sint amet. Nostrud deserunt consectetur culpa minim mollit veniam aliquip pariatur exercitation ullamco ea voluptate et. Pariatur ipsum mollit magna proident nisi ipsum.</div>
+            </div> 
+            <div class="btn btn-dark">+ ADD TO CART</div>
+        </div>
+    </section>
+
+    <!-- product review SECTION-->
+    <section class="product-reviews-section">
+        <div class="container-sm">
+            <div class="review-view-all">
+                <h2>Reviews (23)</h2>
+                <a href="#">view all<i class="fa-light fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="review">
+            <div class="container-sm">
+                <img class="review-image" src="./Images/reviewImage.jpg"/>
+                <div class="review-info">
+                    <div class="name-rating">
+                        <div class="name"></div>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="review-date">23 Jan 2022</div>
+                    <div class="review-text">Consequat ut ea dolor aliqua laborum tempor Lorem culpa. Commodo veniam sint est mollit proident commodo.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="container-sm">
+                <img class="review-image" src="./Images/reviewImage.jpg"/>
+                <div class="review-info">
+                    <div class="name-rating">
+                        <div class="name"></div>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="review-date">23 Jan 2022</div>
+                    <div class="review-text">Consequat ut ea dolor aliqua laborum tempor Lorem culpa. Commodo veniam sint est mollit proident commodo.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="container-sm">
+                <img class="review-image" src="./Images/reviewImage.jpg"/>
+                <div class="review-info">
+                    <div class="name-rating">
+                        <div class="name"></div>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="review-date">23 Jan 2022</div>
+                    <div class="review-text">Consequat ut ea dolor aliqua laborum tempor Lorem culpa. Commodo veniam sint est mollit proident commodo.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>

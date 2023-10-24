@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+html, body {
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  color: #626262;
+}
+html h1, html h2, html h3, html h4, body h1, body h2, body h3, body h4 {
+  color: #111111;
+  font-weight: 700;
+}
+html h1, body h1 {
+  font-size: 32px;
+}
+html h2, body h2 {
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out !important;
+}
+
+.btn-dark {
+  background-color: #111111;
+  color: white;
+}
+.btn-dark:hover {
+  background-color: white;
+  color: #111111;
+  border: 1px solid black;
+}
+
+.btn-white {
+  background-color: white;
+  color: #111111;
+}
+.btn-white:hover {
+  background-color: #111111;
+  color: white;
+  border: 1px solid black;
+}
+
+.product-details-section .product-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-details-section .product-images .image-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 22px 0;
+  border-bottom: 2px solid #DBE3F5;
+}
+.product-details-section .product-images .image-pagination .circle {
+  font-size: 6px;
+}
+.product-details-section .product-images .image-pagination .bar {
+  font-size: 20px;
+}
+.product-details-section .container-sm .title-wishlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+.product-details-section .container-sm .title-wishlist i {
+  padding-right: 10px;
+}
+.product-details-section .container-sm .product-rating {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+.product-details-section .container-sm .product-rating i {
+  color: #FFBE00;
+  padding-right: 2px;
+}
+.product-details-section .container-sm .product-rating .total-reviews {
+  padding-left: 5px;
+}
+.product-details-section .container-sm .price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.product-details-section .container-sm .price-cart h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 7px;
+}
+.product-details-section .container-sm .price-cart .add-to-cart {
+  display: flex;
+  align-items: center;
+}
+.product-details-section .container-sm .price-cart .add-to-cart .amount {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.product-details-section .container-sm .price-cart .add-to-cart button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.product-details-section .container-sm .product-size .title {
+  color: #111111;
+}
+.product-details-section .container-sm .product-size button {
+  background-color: transparent;
+  border: 2px solid #DBE3F5;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  margin-right: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.product-details-section .container-sm .product-size button:focus {
+  background-color: #DBE3F5;
+}
+.product-details-section .container-sm .product-colors {
+  display: flex;
+  align-items: center;
+}
+.product-details-section .container-sm .product-colors .title {
+  color: #111111;
+  margin-right: 25px;
+}
+.product-details-section .container-sm .product-colors .color-buttons {
+  padding: 15px;
+}
+.product-details-section .container-sm .product-colors .color-buttons button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-right: 8px;
+}
+.product-details-section .container-sm .product-colors .color-buttons button:focus {
+  border: 3px solid #DBE3F5;
+  width: 33px;
+  height: 33px;
+}
+.product-details-section .container-sm .product-colors .color-buttons button.red {
+  background-color: #FF6262;
+}
+.product-details-section .container-sm .product-colors .color-buttons button.blue {
+  background-color: #63C7FF;
+}
+.product-details-section .container-sm .product-colors .color-buttons button.beige {
+  background-color: #F8E7CD;
+}
+.product-details-section .container-sm .product-colors .color-buttons button.navy {
+  background-color: #323858;
+}
+.product-details-section .container-sm .product-colors .color-buttons button.black {
+  background-color: #111111;
+}
